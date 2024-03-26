@@ -6,7 +6,7 @@
  * binary_tree_node - creates a binary tree
  * @parent: parent node of the binary tree
  * @value: the value to be stored in the parent node
- * Return: the new node created
+ * Return: the new node created, NULL if failed to create
  */
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
@@ -21,6 +21,8 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 
 	new_node->n = value;
 	new_node->parent = parent;
+	new_node->left = NULL;
+	new_node->right = NULL;
 
 	return (new_node);
 }
