@@ -23,7 +23,7 @@ size_t get_height(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_height - finds the balance factor of a binary tree
+ * binary_tree_balance - finds the balance factor of a binary tree
  * @tree: the binary tree to find the blance factor for
  * Return: balance factor, 0 if tree is NULL
  */
