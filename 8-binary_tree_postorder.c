@@ -2,7 +2,8 @@
 #include <stddef.h>
 
 /**
- * binary_tree_postorder - goes through a binary tree using the postorder traversal
+ * binary_tree_postorder - goes through a binary tree
+ * using the postorder traversal
  * @tree: the binary tree to traverse
  * @func: pointer to a function to call for each node
  */
